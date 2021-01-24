@@ -26,10 +26,8 @@ module.exports = {
         }),
         {}
       )
-    })
-
-    console.log(JSON.stringify(config, null, 2))
-    console.log(`1111111111111111111111111`)
+    })    
+    
     return finalConfig
   }
 }

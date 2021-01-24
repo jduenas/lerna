@@ -4,7 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "@jduenas/wp-component": ["../wp-component/src"],
-      "@jduenas/crl-component": ["../crl-component/src"]
+      "@jduenas/crl-component": ["../crl-component/src"],
+      "@jduenas/rollup-component": ["../rollup-component/src"]
     }
   }
 }

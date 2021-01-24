@@ -1,0 +1,32 @@
+{
+  "name": "@jduenas/rollup-component",
+  "version": "0.0.0",
+  "description": "A components library",
+  "main": "dist/rollup-component.umd.js",
+  "module": "dist/rollup-component.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jduenas/lerna.git",
+    "directory": "packages/rollup-component"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Jose Duenas",
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "rollup": "^2.38.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
