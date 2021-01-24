@@ -1,0 +1,24 @@
+{
+  "name": "jduenas",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jduenas/lerna.git"
+  },
+  "scripts": {
+    "start": "lerna run start --scope=@jduenas/site1 --stream",
+    "storybook": "lerna run storybook --stream",
+    "publish": "lerna run build && lerna publish",
+    "build": "lerna run build --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.2"
+  }
+}

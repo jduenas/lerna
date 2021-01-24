@@ -1,0 +1,44 @@
+{
+  "name": "@jduenas/storybook",
+  "version": "0.0.0",
+  "description": "Storybook Package",
+  "author": "Jose Duenas <jduenas@outlook.com>",
+  "homepage": "https://github.com/jduenas/lerna#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jduenas/lerna.git",
+    "directory": "packages/storybook"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "@jduenas/crl-component": "^0.0.0",
+    "@jduenas/wp-component": "^0.0.0",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-essentials": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/react": "^6.1.15",
+    "autoprefixer": "9.4.7",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "cross-env": "5.2.0",
+    "css-loader": "2.1.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "^10.1.1",
+    "source-map-loader": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.2",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}

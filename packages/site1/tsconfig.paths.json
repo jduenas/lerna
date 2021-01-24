@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@jduenas/wp-component": ["../wp-component/src"],
+      "@jduenas/crl-component": ["../crl-component/src"]
+    }
+  }
+}
