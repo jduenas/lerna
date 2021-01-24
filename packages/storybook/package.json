@@ -1,6 +1,6 @@
 {
   "name": "@jduenas/storybook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Storybook Package",
   "author": "Jose Duenas <jduenas@outlook.com>",
   "homepage": "https://github.com/jduenas/lerna#readme",
@@ -14,8 +14,8 @@
     "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
-    "@jduenas/rollup-component": "^0.0.0",
-    "@jduenas/wp-component": "^0.1.0",
+    "@jduenas/rollup-component": "^0.2.0",
+    "@jduenas/wp-component": "^0.2.0",
     "@storybook/addon-actions": "^6.1.15",
     "@storybook/addon-essentials": "^6.1.15",
     "@storybook/addon-links": "^6.1.15"

@@ -1,14 +1,14 @@
 {
   "name": "@jduenas/site1",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jduenas/lerna.git",
     "directory": "packages/site1"
   },
   "dependencies": {
-    "@jduenas/wp-component": "^0.1.0",
-    "@jduenas/rollup-component": "^0.0.0",
+    "@jduenas/rollup-component": "^0.2.0",
+    "@jduenas/wp-component": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
