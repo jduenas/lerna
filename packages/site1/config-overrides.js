@@ -2,9 +2,17 @@ const paths = require('react-scripts/config/paths')
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin')
 const fs = require('fs')
 const path = require('path')
+const { override, addPostcssPlugins } = require('customize-cra')
 
 // react-app-rewired
-module.exports = function override(config) {
+module.exports = override(
+  override(
+    addPostcssPlugins([require('tailwindcss'), require('autoprefixer')]),
+    addScopedPackageResolution
+  )
+)
+
+function addScopedPackageResolution(config) {
   return alias(configPaths('./tsconfig.paths.json'))(config)
 }
 

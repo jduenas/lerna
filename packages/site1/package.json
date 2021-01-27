@@ -49,9 +49,13 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
     "customize-cra": "^1.0.0",
+    "postcss": "^7",
     "react-app-rewire-alias": "^0.2.0",
     "react-app-rewired": "^2.1.8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.3"
   },
   "gitHead": "6a498ffbb5ad8fc25b5725567cea6d0a549207a5"
