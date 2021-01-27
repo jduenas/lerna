@@ -1,9 +1,17 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid rgb(125, 119, 204);
-  font-size: 2em;
-  text-align: center;
+.container {
+  @apply border-2 
+    p-3 
+    text-center 
+    rounded-md 
+    bg-yellow-500 
+    w-2/3 
+    h-auto
+    shadow-xl
+    font-sans;
+}
+
+.clicked {
+  @apply bg-red-900;
 }
